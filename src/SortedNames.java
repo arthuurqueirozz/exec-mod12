@@ -19,7 +19,7 @@ public class SortedNames {
         List<String> names = new ArrayList<>(List.of(allNames.split(",")));
 
         Collections.sort(names);
-         printNames(names);
+        printNames(names);
 
          sc.close();
     }
